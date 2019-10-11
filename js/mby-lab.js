@@ -39,4 +39,8 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $('.search-button').click(function(event) {
+    alert('Coming Soon.');
+  });
+
 })(jQuery); // End of use strict
