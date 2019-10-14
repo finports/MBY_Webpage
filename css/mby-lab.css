@@ -16,12 +16,13 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #000;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #49BAA9;
+  text-decoration: none;
 }
 
 hr {
@@ -58,6 +59,10 @@ section {
 
 section h2 {
   font-size: 50px;
+}
+
+.widget-ticker:hover {
+  pointer: cursor;
 }
 
 #mainNav {
@@ -107,7 +112,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
-  color: #222222;
+  color: #fdcc52;
 }
 
 #mainNav .navbar-nav > li > a:hover,
@@ -178,7 +183,6 @@ section h2 {
 }
 
 .topic {
-  text-align: center;
   margin-top: 180px;
   position: relative;
   background: linear-gradient(to right, #202649, #49BAA9);
@@ -190,15 +194,16 @@ section h2 {
   margin-bottom: 20px;
 }
 
-.topic-contents {
-  float: left;
-  text-align: left;
-  min-width: 100px;
-  margin-right: 20px;
+.topic div {
+  display: inline-block;
 }
 
-.topic-contents:last-child {
+.topic div:nth-child(2n) {
+  margin: 0 30px 0 30px;
+}
 
+.topic-contents {
+  min-width: 100px;
 }
 
 .topic-article {
@@ -599,6 +604,10 @@ footer ul li a {
 
 footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
   text-decoration: none;
+}
+
+footer a {
+  color: white;
 }
 
 .bg-primary {

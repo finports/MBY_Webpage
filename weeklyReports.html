@@ -17,13 +17,6 @@
   <link href="carousel.css" rel="stylesheet">
   <script src="carousel.min.js" type="text/javaScript"></script>
 
-  <!-- Slick CSS and JavaScript-->
-  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick.css">
-  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-theme.css">
-  <script type="text/javascript" src="slick-1.8.1/slick.min.js"></script>
-  <script type="text/javascript" src="vendor/jquery/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript"></script>
-
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
@@ -46,7 +39,7 @@
   <!-- TradingView Widget BEGIN -->
   <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    <script type="text/javascript" class="widget-ticker" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
     {
       "symbols": [
         {
@@ -86,7 +79,7 @@
           Menu
           <i class="fas fa-bars"></i>
         </button>
-        <a class="mby_logo">
+        <a class="mby_logo" href="index.html">
           <img src="img/mby_lab_logo.png">
         </a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -111,9 +104,9 @@
   <div class="search-bar container">
     <div>Weekly Reports</div>
     <div class="search-placeholder">
-      <input type="text" placeholder="Search"><i class="fas fa-search"></i></textarea>
-      <div class="search-button">
-        search
+      <input class="sch-ph" type="text" placeholder="Search"><i class="fas fa-search"></i></input>
+      <div class="search-button loginSignUp">
+        Login / Sign up
       </div>
     </div>
   </div>
@@ -122,22 +115,23 @@
       <img src="img/weeklyReports_headImg.png"></img>
       <div class="main-contents">
         <h1>Weekly Reports</h1>
-        <h5>Explore the forum from MBY LAB</h5>
+        <h5>Explore the weekly reports from MBY LAB</h5>
       </div>
     </div>
   </div>
   <div class="container article-wrapper">
     <div class="article-box">
-      <div class="article-image">
-        <img src="img/weeklyReports_article.png"></img>
-      </div>
+      <a class="article-image" href="reportsArticle.html">
+        <img src="img/weeklyReports_article.png">
+          <h5>10월 2주차</h5>
+        </img>
+      </a>
       <div class="weekly-article-text">
-        <h5>Incomming & Saving</h5>
         <h6>25 views | 6 posts</h6>
-        <h6>Desrcibe your forum category. Engage your audience and entice them to continue reading</h6>
+        <h6></h6>
       </div>
     </div>
-    <div class="article-box">
+    <!-- <div class="article-box">
       <div class="article-image"></div>
       <div class="weekly-article-text">
         <h5>Household & Lifestyle</h5>
@@ -160,7 +154,7 @@
         <h6>6 views | 8 posts</h6>
         <h6>Add your category description here. Be sure to write in an informative way that entices further reading</h6>
       </div>
-    </div>
+    </div> -->
   </div>
   </body>
   <footer>
@@ -168,5 +162,15 @@
       <p>Copyright &copy; 2019 <a href="https://finports.com">FinPorts Inc.</a> All Rights Reserved.</p>
   </footer>
 
-<script src="js/mby-lab.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <script src="js/mby_lab.js"></script>
+    <script src="js/mby_lab_search.js"></script>
+
+
 </html>
