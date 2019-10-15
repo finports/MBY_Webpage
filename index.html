@@ -1,202 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>MBY LAB</title>
+    <title>MBY LAB</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Carousel CSS and JavaScript-->
-  <link href="carousel.css" rel="stylesheet">
-  <script src="carousel.min.js" type="text/javaScript"></script>
+    <!-- Carousel CSS and JavaScript-->
+    <link href="carousel.css" rel="stylesheet">
+    <script src="carousel.min.js" type="text/javaScript"></script>
 
-  <!-- Slick CSS and JavaScript-->
-  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick.css">
-  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-theme.css">
-  <script type="text/javascript" src="slick-1.8.1/slick.min.js"></script>
-  <script type="text/javascript" src="vendor/jquery/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript"></script>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/mby-lab.css" rel="stylesheet">
 
-  <!-- Plugin CSS -->
-  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/mby-lab.css" rel="stylesheet">
-
-  <!-- Add Favicon -->
-  <link rel="shortcut icon" href="img/mby_favicon.png"
+    <!-- Add Favicon -->
+    <link rel="shortcut icon" href="img/mby_favicon.png">
 
 
-</head>
+  </head>
 
-<body id="page-top">
-<div class="fixed-top">
-  <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
-  "symbols": [
+  <body id="page-top">
+  <div class="fixed-top">
+    <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" class="widget-ticker" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
     {
-      "title": "S&P 500",
-      "proName": "OANDA:SPX500USD"
-    },
-    {
-      "title": "나스닥 100",
-      "proName": "OANDA:NAS100USD"
-    },
-    {
-      "title": "EUR/USD",
-      "proName": "FX_IDC:EURUSD"
-    },
-    {
-      "title": "BTC/USD",
-      "proName": "BITSTAMP:BTCUSD"
-    },
-    {
-      "title": "ETH/USD",
-      "proName": "BITSTAMP:ETHUSD"
-    }
-  ],
-  "colorTheme": "light",
-  "isTransparent": false,
-  "displayMode": "adaptive",
-  "locale": "kr"
-}
-  </script>
-</div>
-<!-- TradingView Widget END -->
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg" id="mainNav">
-    <div class="nav-container container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <a class="finports-logo" href="#page-top">
-        <img src="img/mby_lab_logo.png">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger">Fourm</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger">About</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div>
+    "symbols": [
+      {
+        "title": "S&P 500",
+        "proName": "OANDA:SPX500USD"
+      },
+      {
+        "title": "나스닥 100",
+        "proName": "OANDA:NAS100USD"
+      },
+      {
+        "title": "EUR/USD",
+        "proName": "FX_IDC:EURUSD"
+      },
+      {
+        "title": "BTC/USD",
+        "proName": "BITSTAMP:BTCUSD"
+      },
+      {
+        "title": "ETH/USD",
+        "proName": "BITSTAMP:ETHUSD"
+      }
+    ],
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "locale": "kr"
+  }
+    </script>
   </div>
-</div>
-<!-- Forum Section -->
-  <div class="container topic-container">
-    <div class="topic">
-      <div class="topic-contents">The Top 5 Money Savers</div>
-      <div class="topic-article">Switch Bank Account</div>
-    </div>
-  </div>
-  <div class="container forum-container">
-    <div class="article-container forum-container-left">
-      <div class="forum-article forum-contents" id="left-forum-article">
-        <div class="canvas" id="slideCanvas">
-          <img src="img/mby_scroll_1.png">
-          <img src="img/mby_scroll_2.png">
-        </div>
-        <div class="article-text">
-          <h1>Explore our Forums</h1>
-          <h6>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</h4>
-          <h6>Explore +</h6>
+  <!-- TradingView Widget END -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg" id="mainNav">
+      <div class="nav-container container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <a class="mby_logo" href="index.html">
+          <img src="img/mby_lab_logo.png">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="weeklyReports.html">Weekly Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger">About</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+  </div>
+  <!-- Forum Section -->
+    <div class="container topic-container">
+      <div class="topic">
+        <div class="topic-contents">The Top 5 Issues</div>
+        <div>|</div>
+        <div class="topic-article">Connect All Assets!</div>
+      </div>
     </div>
-    <div class="article-container forum-container-right">
-      <div class="forum-article-sub">
-        <div class="article-contents">
-          <div class="divider"></div>
-          <h6>Welcome To MBY Lab</h6>
-          <h2>Money Education that Won't Cost You A Dime</h3>
-          <h6>I'm a paragraph. Click here to add your own text and edit me. I'm a great place for you to tell a story and let your users know a more about you.</h3>
+    <div class="container forum-container">
+      <div class="article-container forum-container-left">
+        <div class="forum-article forum-contents" id="left-forum-article">
+          <div class="canvas" id="slideCanvas">
+            <img src="img/mby_scroll_1.png">
+            <!-- <img src="img/mby_scroll_2.png"> -->
+          </div>
+          <div class="article-text">
+            <h1>Weekly Reports</h1>
+            <h6> 주식시장과 암호화폐시장의 동향을 분석하며, 주간 이슈를 정리하여 투자자에게 안전한 투자 위한 안내서를 제공합니다.</h6>
+            <a href="weeklyReports.html"><h6>Explore +</h6></a>
+          </div>
         </div>
-        </div>
-      <div class="forum-article-sub forum-contents">
-        <div><img src="img/mby_image_3.png"></div>
-        <div class="article-text">
+      </div>
+      <div class="article-container forum-container-right">
+        <div class="forum-article-sub">
           <div class="article-contents">
             <div class="divider"></div>
-            <h6>Newsletter</h6>
-            <h2>Subscribe for the latest </br> MBY Lab Updates</h2>
+            <h6>Welcome To MBY Lab</h6>
+            <h2>Connect All Assets!</h3>
+            <h6>MBY LAB은 FinPorts의 금융 정보 및 기술적 분석과 다양한 서비스를 제공하는 연구실입니다.</h3>
+          </div>
+          </div>
+        <div class="forum-article-sub forum-contents">
+          <div><img src="img/mby_image_3.png"></div>
+          <div class="article-text">
+            <div class="article-contents">
+              <div class="divider"></div>
+              <h6>Newsletter</h6>
+              <h2>Subscribe for the latest </br> MBY Lab Updates</h2>
+              <h6>준비 중입니다.</h6>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Link Section -->
-  <div class="container link-container">
-    <div class="link-container-left">
-      <div class="divider"></div>
-      <h6>Another link</h6>
-      <h3>MBY lab link</h3>
-    </div>
-    <div class="link-container-right">
-      <ul class="link-container-list">
-        <li>
-          <img src="img/link_border.png">
-          <div>Mortgage Calculator+</div>
-        </li>
-        <li>
-          <img src="img/link_border.png">
-          <div>Flight Checker+</div>
-        </li>
-        <li>
-          <img src="img/link_border.png">
-          <div>Currency Checker+</div>
-        </li>
-      </ul>
-      <ul class="link-container-list">
-        <li>
-          <img src="img/link_border.png">
-          <div>Loans Eligibility Calculator+</div>
-        </li>
-        <li>
-          <img src="img/link_border.png">
-          <div>Car Insurance Calculator+</div>
-        </li>
-        <li>
-          <img src="img/link_border.png">
-          <div>Find Coupon+</div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</body>
-<footer>
-  <div class="container">
-    <p>Copyright &copy; 2019 <a href="https://finports.com">FinPorts Inc.</a> All Rights Reserved.</p>
-</footer>
+    <!-- Link Section -->
+    <!-- <div class="container link-container">
+      <div class="link-container-left">
+        <div class="divider"></div>
+        <h6>Another link</h6>
+        <h3>MBY lab link</h3>
+      </div>
+      <div class="link-container-right">
+        <ul class="link-container-list">
+          <li>
+            <img src="img/link_border.png">
+            <div>Mortgage Calculator+</div>
+          </li>
+          <li>
+            <img src="img/link_border.png">
+            <div>Flight Checker+</div>
+          </li>
+          <li>
+            <img src="img/link_border.png">
+            <div>Currency Checker+</div>
+          </li>
+        </ul>
+        <ul class="link-container-list">
+          <li>
+            <img src="img/link_border.png">
+            <div>Loans Eligibility Calculator+</div>
+          </li>
+          <li>
+            <img src="img/link_border.png">
+            <div>Car Insurance Calculator+</div>
+          </li>
+          <li>
+            <img src="img/link_border.png">
+            <div>Find Coupon+</div>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+  </body>
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; 2019 <a href="https://finports.com">FinPorts Inc.</a> All Rights Reserved.</p>
+  </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="js/mby-lab.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <script src="js/mby_lab.js"></script>
+  <script src="js/mby_lab_search.js"></script>
 </html>
