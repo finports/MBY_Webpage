@@ -1,45 +1,36 @@
-
 .search-bar {
-  padding: 20px;
-  margin-top: 170px;
+  padding: 1rem;
+  margin-top: 9rem;
 }
 
-.search-bar div {
-  display: inline-block;
-}
 
 .search-placeholder {
   position: relative;
-  float: right;
+  padding-left: 2rem;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
-.search-bar input {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  vertical-align: bottom;
-  max-width: 200px;
-  height: 28px;
-  padding-left: 30px;
+.search-placeholder input {
+  max-width: 50%;
+  border: none;
+  border-bottom: 1px solid;
+  padding-left: 1rem;
 }
 
-.search-bar i {
+.search-placeholder i {
   position: absolute;
-  top: 6px;
-  left: 0;
-  padding: 2px 8px;
+  left: 2rem;
+  top: 0.4rem;
 }
+
 
 .search-button {
-  vertical-align: baseline;
-  text-align: center;
-  width: 140px;
-  height: 30px;
-  margin-left: 20px;
-  border-style: solid;
-  border-width: 1px;
-  font-size: 15px;
-  padding-top: 3px;
+  max-width: 43%;
+  border: 1px solid #000;
+  padding: 0 1rem;
+  margin-left: 1.4rem;
 }
 
 .search-button:hover {
@@ -49,89 +40,56 @@
   cursor: pointer;
 }
 
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: #000;
-  background-color: rgba(0,0,0,0.4);
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
-}
-
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover, .close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.weeklyReports-main-wrapper {
-  width: 100%;
-  height: 250px;
-}
-
 .weeklyReports-main {
   position: relative;
-  color: #fff;
 }
 
 .weeklyReports-main img {
-  max-width: 930px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 .main-contents {
   position: absolute;
-  top: 0;
+  top: 40%;
+  left: 3rem;
+  color: #fff;
+}
+
+.main-contents {
+  max-width: 100%;
+  height: auto;
+  width: auto;
 }
 
 .weeklyReports-main-wrapper h1 {
-  padding-top: 70px;
   font-weight: 500;
-  margin-bottom: 20px;
-}
-
-.weeklyReports-main h1, h5 {
-  padding-left: 19px;
 }
 
 .article-wrapper {
-  margin-top: 10px;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 .article-box {
-  margin-bottom: 20px;
-  float: left;
-  width: 49%;
+  margin-top: 1rem;
 }
 
-.article-box:nth-child(2n) {
-  margin-left: 18px;
-}
-
-.article-image {
+.article-image img {
   position: relative;
-  width: 100%;
-  height: 250px;
-  background-color: #00008f;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.article-image h5 {
+  position: absolute;
+  top: 40%;
+  padding-left: 2rem;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 350;
 }
 
 .article-image h5:hover {
@@ -140,38 +98,26 @@
   cursor: pointer;
 }
 
-.article-image h5 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-left: 50px;
-  color: #fff;
-  font-size: 30px;
-  font-weight: 350;
-}
-
-.weekly-article-text {
-  margin-top: 20px;
-  padding-right: 40px;
-  padding-left: 20px;
-}
-
 .article-box h6 {
-  margin-left: 20px;
+  margin-top: 1rem;
+  margin-left: 2rem;
   font-size: 12px;
 }
 
-.page-path div:nth-child(2n){
-  margin: 0 10px 0 10px;
-}
-
 .pdf-container {
-  width: 100%;
-  height: 90%;
-  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.26%;
 }
 
-.article-pdf {
+.report-pdf {
+  position: absolute;
+  top: 1rem;
+  left: 0;
   width: 100%;
   height: 100%;
+}
+
+.page-path {
+  padding-left: 2rem;
 }
