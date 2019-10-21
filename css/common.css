@@ -1,0 +1,398 @@
+/*!
+ * Start Bootstrap - New Age v5.0.7 (https://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
+ */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  background-color: #fff;
+}
+
+a {
+  color: #000;
+  transition: all .35s;
+}
+
+a:hover, a:focus {
+  color: #49BAA9;
+  text-decoration: none;
+}
+
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+hr.light {
+  border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  font-size: 50px;
+}
+
+.widget-ticker:hover {
+  pointer: cursor;
+}
+
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: #202649;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  height: 100%;
+}
+
+#mainNav .navbar-brand {
+  color: #fdcc52;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color: #fcbd20;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: white;
+}
+
+#mainNav .navbar-nav > li > a {
+  text-align: center;
+  margin-left: 18px;
+  font-size: 11px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#mainNav .navbar-nav > li > a.active {
+  color: #fdcc52 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+  color: white;
+}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+  color: #fdcc52;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: #202649;
+  }
+  #mainNav .navbar-brand {
+    color: fade(white, 70%);
+  }
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: white;
+  }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: white;
+  }
+  #mainNav .navbar-nav > li > a:hover,
+  #mainNav .navbar-nav > li > a:focus:hover {
+    color: white;
+  }
+  #mainNav.navbar-shrink {
+    border-color: rgba(34, 34, 34, 0.1);
+    background-color: #202649;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #222222;
+  }
+  #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+    color: #fdcc52;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li > a,
+  #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+    color: white;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+  #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+    color: #fdcc52;
+  }
+}
+
+.navbar-nav {
+  display: table;
+}
+
+.navbar-nav li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.mby_logo img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.topic-container {
+  margin-bottom: 20px;
+}
+
+.topic {
+  margin-top: 12rem;
+  background: linear-gradient(to right, #202649, #49BAA9);
+  padding: 20px;
+  color: #fff;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.topic div:nth-child(2n) {
+  margin: 0 1rem;
+}
+
+.topic-contents {
+  margin-left: 1rem;
+}
+
+.topic-article {
+  text-align: left;
+}
+
+.forum-container {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+.forum-container-left {
+  position: relative;
+  height: 100%;
+}
+
+.forum-container-left img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.article-text {
+  padding-top: 3rem;
+  padding-right: 2.4rem;
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  height: 50%;
+  width: 80%;
+}
+
+.article-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.article-text h6:last-child {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.forum-article-sub:first-child {
+  height: 50%;
+  padding-top: 4rem;
+  padding: 4rem 1.5rem;
+  margin-bottom: 0.6rem;
+  background-color: #202649;
+  color: #fff;
+}
+
+.article-contents .divider {
+  border-top: 2px solid #fff;
+  margin-bottom: 0.5rem;
+  width: 15rem;
+}
+
+.article-contents h2 {
+  margin-top: 1rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.subscribe-container {
+  position: relative;
+}
+
+.subscribe-container img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.article-subscribe {
+  position: absolute;
+  bottom: 0;
+  max-width: 90%;
+  max-height: 70%;
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  padding: 1.3rem;
+}
+
+.article-subscribe-contents .divider {
+  border-top: 0.3rem solid #000;
+  margin-bottom: 0.5rem;
+  width: 15rem;
+}
+
+.article-subscribe-contents h3 {
+  margin-top: 1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.article-subscribe-contents h6:last-child {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 5rem;
+  padding: 2rem 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+footer a {
+  color: white;
+}
+
+.bg-primary {
+  background: #fdcc52;
+  background: linear-gradient(#fdcc52, #fdc539);
+}
+
+.text-primary {
+  color: #fdcc52;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-outline {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: white;
+  border-color: #fdcc52;
+  background-color: #fdcc52;
+}
+
+.btn {
+  border-radius: 300px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px;
+}
+
+.dropdown-button {
+  padding-top: 0.2rem;
+  background-color: #202649;
+  color: white;
+  border: none;
+  margin-left: 1.2rem;
+}
+
+.dropdown {
+  position: relative;
+  display:inline-block;
+}
+
+.dropdown-content {
+  padding: 0.4rem;
+  display: none;
+  position: absolute;
+  min-width: 100%;
+  z-index: 1;
+  background-color: #202649;
+  margin-left: 18px;
+  font-size: 11px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-button {
+  background-color: #202649;
+}

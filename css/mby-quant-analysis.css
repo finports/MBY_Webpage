@@ -1,0 +1,62 @@
+.analysis-container {
+  min-height: 100%;
+}
+
+.analysis-image img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.analysis-text-wrapper {
+  margin-bottom: 100px;
+}
+
+.analysis-title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 100px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.analysis-contents {
+  margin: 0 auto;
+}
+
+.read-more {
+  opacity: 0.5;
+  margin-top: 1.5rem;
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+.read-more:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.analysis-contents-container {
+  min-width: 100%;
+  text-align: center;
+}
+
+.theme-image {
+  min-width: 100%;
+}
+
+.theme-image img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.analysis-title h1 {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.analysis-contents {
+  text-align: left;
+}
