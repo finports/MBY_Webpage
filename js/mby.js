@@ -39,27 +39,9 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // $(function() {
-  //   var labMenu = $('.lab-menu');
-  //   var labMenuItems = labMenu.children('li');
-  //
-  //   labMenuItems.bind('mouseover', function() {
-  //     var $this = $(this);
-  //     $this.removeClass('collapse').addClass('selected show');
-  //     $this.children('li').slideDown(200);
-  //   }).bind('mouseleave', function() {
-  //     var $this = $(this);
-  //     $this.removeClass('selected').children('li');
-  //   });
-  //
-  //   labMenu.bind('mouseenter',function(){
-  //     var $this = $(this);
-  //     $this.addClass('hoverd');
-  //   }).bind('mouseleave', function() {
-  //     var $this = $(this);
-  //     $this.removeClass('hovered');
-  //     labMenuItems.children('li').hide();
-  //   });
-  // });
+  //Carousel Image Slide
+  $('.carosel').carousel({
+    interval: 3500
+  });
 
 })(jQuery); // End of use strict

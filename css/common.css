@@ -147,7 +147,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -155,7 +155,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+
   }
 }
 
@@ -383,6 +383,10 @@ footer a {
   text-transform: uppercase
 }
 
+#carousel-slider {
+  overflow: hidden;
+}
+
 .dropdown-content a {
   color: white;
   text-decoration: none;
@@ -395,4 +399,8 @@ footer a {
 
 .dropdown:hover .dropdown-button {
   background-color: #202649;
+}
+
+.dropdown a > button {
+  letter-spacing: 2px;
 }
