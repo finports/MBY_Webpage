@@ -1,16 +1,20 @@
 (function($) {
   "use strict"; // Start of use strict
-  $(document).ready(function() {
-    $('.sch-ph').keypress(function(e) {
-      if(e.which == 13) {
-        location.href="searchResult.html";
-      }
-    });
+
+  $('.search-button').click(function() {
+    alert("Comming Soon");
   });
 
-  $('.loginSignUp').click(function() {
-    console.log("Success Click");
-    alert("Comming Soon");
+  // Search Bar
+  $('#input-value').on('keyup', function() {
+    var word = $(this).val().toUpperCase();
+    var wordS = $(this).val().toLowerCase();
+    $(".article-box").hide();
+    var result = $(".article-box:contains('" + word +"')");
+    var resultS = $(".article-box:contains('" + wordS +"')");
+
+    $(result).fadeIn(500);
+    $(resultS).fadeIn(500);
   });
 
 })(jQuery); // End of use strict

@@ -193,8 +193,9 @@ section h2 {
   max-width: 100%;
 }
 
-.topic div:nth-child(2n) {
-  margin: 0 1rem;
+.topic-contents span {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .topic-contents {
