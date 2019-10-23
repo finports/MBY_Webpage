@@ -39,8 +39,8 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  //Carousel Image Slide
-  $('.carosel').carousel({
+  // Carousel Image Slide
+  $('.carousel').carousel({
     interval: 3500
   });
 

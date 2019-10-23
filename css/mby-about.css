@@ -1,0 +1,23 @@
+html {
+  max-height: 90%;
+}
+
+.about-wrapper {
+  min-height: 100%;
+}
+
+.about-image {
+  margin: 0 auto;
+}
+
+.about-image img {
+  padding-left: 3rem;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.about-content {
+  padding-top: 5rem;
+  text-align: center;
+}
