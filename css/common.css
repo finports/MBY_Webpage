@@ -384,7 +384,7 @@ footer a {
   text-transform: uppercase
 }
 
-#carousel-slider {
+.index-carousel {
   overflow: hidden;
 }
 
