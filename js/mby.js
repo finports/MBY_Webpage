@@ -20,12 +20,6 @@
     $('.navbar-collapse').collapse('hide');
   });
 
-  // // Activate scrollspy to add active class to navbar items on scroll
-  // $('body').scrollspy({
-  //   target: '#mainNav',
-  //   offset: 54
-  // });
-
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
@@ -42,6 +36,11 @@
   // Carousel Image Slide
   $('.carousel').carousel({
     interval: 3500
+  });
+
+  // News Article Toggle
+  $('.news-toggle').on('click', function() {
+    $(this).next('.news-article').slideToggle();
   });
 
 })(jQuery); // End of use strict

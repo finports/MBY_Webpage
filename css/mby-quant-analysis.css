@@ -1,5 +1,6 @@
 .analysis-container {
   min-height: 100%;
+  width: 100%;
 }
 
 .analysis-image img {
@@ -59,4 +60,10 @@
 
 .analysis-contents {
   text-align: left;
+}
+
+.tradingView-container {
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }

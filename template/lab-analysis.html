@@ -13,10 +13,6 @@
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Carousel CSS and JavaScript-->
-    <link href="carousel.css" rel="stylesheet">
-    <script src="carousel.min.js" type="text/javaScript"></script>
-
     <!-- Custom fonts for this template -->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../vendor/simple-line-icons/css/simple-line-icons.css">
@@ -32,8 +28,6 @@
 
     <!-- Add Favicon -->
     <link rel="shortcut icon" href="../img/mby_favicon.png">
-
-
   </head>
 
   <body id="page-top">
@@ -92,7 +86,7 @@
                 <a class="nav-link js-scroll-trigger" href="news.html">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="weeklyReports.html">M/W reports</a>
+                <a class="nav-link js-scroll-trigger" href="monthly-weekly-reports.html">M/W reports</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="navbar-nav ml-auto navbar-toggler-right">
@@ -116,6 +110,150 @@
     <div class="search-bar container">
       <div>Lab > Analysis</div>
     </div>
+    <div class="container analysis-container">
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">마켓 데이터</span></a></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+        {
+        "colorTheme": "light",
+        "dateRange": "12m",
+        "showChart": true,
+        "locale": "kr",
+        "largeChartUrl": "",
+        "isTransparent": false,
+        "width": "925",
+        "height": "660",
+        "plotLineColorGrowing": "rgba(33, 150, 243, 1)",
+        "plotLineColorFalling": "rgba(33, 150, 243, 1)",
+        "gridLineColor": "rgba(233, 233, 234, 1)",
+        "scaleFontColor": "rgba(120, 123, 134, 1)",
+        "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+        "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+        "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+        "tabs": [
+          {
+            "title": "지수",
+            "symbols": [
+              {
+                "s": "OANDA:SPX500USD",
+                "d": "S&P 500"
+              },
+              {
+                "s": "OANDA:NAS100USD",
+                "d": "Nasdaq 100"
+              },
+              {
+                "s": "FOREXCOM:DJI",
+                "d": "Dow 30"
+              },
+              {
+                "s": "INDEX:NKY",
+                "d": "Nikkei 225"
+              },
+              {
+                "s": "INDEX:DEU30",
+                "d": "DAX Index"
+              },
+              {
+                "s": "OANDA:UK100GBP",
+                "d": "FTSE 100"
+              }
+            ],
+            "originalTitle": "Indices"
+          },
+          {
+            "title": "상품",
+            "symbols": [
+              {
+                "s": "CME_MINI:ES1!",
+                "d": "E-Mini S&P"
+              },
+              {
+                "s": "CME:6E1!",
+                "d": "Euro"
+              },
+              {
+                "s": "COMEX:GC1!",
+                "d": "Gold"
+              },
+              {
+                "s": "NYMEX:CL1!",
+                "d": "Crude Oil"
+              },
+              {
+                "s": "NYMEX:NG1!",
+                "d": "Natural Gas"
+              },
+              {
+                "s": "CBOT:ZC1!",
+                "d": "Corn"
+              }
+            ],
+            "originalTitle": "Commodities"
+          },
+          {
+            "title": "채권",
+            "symbols": [
+              {
+                "s": "CME:GE1!",
+                "d": "Eurodollar"
+              },
+              {
+                "s": "CBOT:ZB1!",
+                "d": "T-Bond"
+              },
+              {
+                "s": "CBOT:UB1!",
+                "d": "Ultra T-Bond"
+              },
+              {
+                "s": "EUREX:FGBL1!",
+                "d": "Euro Bund"
+              },
+              {
+                "s": "EUREX:FBTP1!",
+                "d": "Euro BTP"
+              },
+              {
+                "s": "EUREX:FGBM1!",
+                "d": "Euro BOBL"
+              }
+            ],
+            "originalTitle": "Bonds"
+          },
+          {
+            "title": "외환",
+            "symbols": [
+              {
+                "s": "FX:EURUSD"
+              },
+              {
+                "s": "FX:GBPUSD"
+              },
+              {
+                "s": "FX:USDJPY"
+              },
+              {
+                "s": "FX:USDCHF"
+              },
+              {
+                "s": "FX:AUDUSD"
+              },
+              {
+                "s": "FX:USDCAD"
+              }
+            ],
+            "originalTitle": "Forex"
+          }
+        ]
+      }
+        </script>
+      </div>
+    </div>
+    <!-- TradingView Widget BEGIN -->
+
+    <!-- TradingView Widget END -->
     <!-- <div class="container analysis-container">
       <div class="row">
         <div class="col-lg-6 analysis-image img-fluid">
@@ -132,9 +270,39 @@
         </div>
       </div>
     </div> -->
-    <div class="container notice-container">
-      아직 준비 중 입니다.
-    </div>
+    <!-- <div class="container analysis-container">
+      TradingView Widget BEGIN
+      <div class="tradingview-widget-container tradingView-container">
+        <div id="tradingview_2ba25"></div>
+        <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/NASDAQ-IXIC/" rel="noopener" target="_blank"><span class="blue-text">IXIC 차트</span></a></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+          new TradingView.widget(
+          {
+            "width": 980,
+            "height": 610,
+            "symbol": "NASDAQ:IXIC",
+            "interval": "D",
+            "timezone": "Etc/UTC",
+            "theme": "Light",
+            "style": "1",
+            "locale": "kr",
+            "toolbar_bg": "#f1f3f6",
+            "enable_publishing": false,
+            "allow_symbol_change": true,
+            "watchlist": [
+              "INDEX:DXY",
+              "TVC:USOIL",
+              "FX_IDC:XAUUSD"
+            ],
+            "referral_id": "Mby_lab",
+            "container_id": "tradingview_2ba25"
+          }
+          );
+        </script>
+      </div>
+      TradingView Widget END
+    </div> -->
   </body>
     <footer>
       <div class="container">
