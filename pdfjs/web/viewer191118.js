@@ -4246,7 +4246,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: '../../img/191015mby-op-weeklyreport.pdf',
+    value: '../../img/191118mby-op-weeklyreport.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
